@@ -501,9 +501,9 @@ const handleFinalizar = async () => {
       default:
         return(
           <Box>
-            <Typography variant='h4' align='center' sx={{color:'black'}}>Bienvenido a la familia de CHAT PET</Typography>
+            <Typography variant='h4' align='center' sx={{color:'black'}}>Bienvenido a la familia de PET'S RIDE</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:5,color:'black'}}>HEMOS RECIBIDO TU INFORMACIÓN</Typography>
-            <Typography variant='body1' align='center' sx={{marginTop:2,color:'gray', fontSize:'15px'}}>Ahora puedes encontrar los mejores servicios para tu mascota en{' '} <span style={{color:'#eb5d1e', fontWeight:'bold'}}>CHAT PET</span>.</Typography>
+            <Typography variant='body1' align='center' sx={{marginTop:2,color:'gray', fontSize:'15px'}}>Ahora puedes encontrar los mejores servicios para tu mascota en{' '} <span style={{color:'#eb5d1e', fontWeight:'bold'}}>PET'S RIDE</span>.</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:3,color:'gray', fontSize:'15px'}}>Explora prestadores cerca de ti, reserva servicios y disfruta de la tranquilidad de saber que tu mascota está en buenas manos.</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:3,color:'gray', fontSize:'15px'}}>Presiona el botón de <strong>FINALIZAR</strong> para ir a tu perfil.</Typography>
           </Box>
@@ -553,7 +553,7 @@ const handleFinalizar = async () => {
         >
           {/* contendio encima de... */}
           <Box sx={{ position:'relative', zIndex:2, p:3 }}>
-            <Typography align='center' variant='h4'>CHAT PET</Typography>
+            <Typography align='center' variant='h4'>PET'S RIDE</Typography>
             <Typography variant='h6' align='center' sx={{marginBottom:2, color:'#ffc0a4', fontSize:'14px'}}>DUEÑO DE MASCOTA</Typography>
             <Stepper 
               activeStep={activeStep} 

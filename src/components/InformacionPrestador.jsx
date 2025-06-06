@@ -512,7 +512,7 @@ const handleFinalizar = async () => {
       default:
         return(
           <Box>
-            <Typography variant='h4' align='center' sx={{color:'black'}}>Bienvenido a la familia de CHAT PET</Typography>
+            <Typography variant='h4' align='center' sx={{color:'black'}}>Bienvenido a la familia de PET'S RIDE</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:5,color:'black'}}>HEMOS RECIBIDO TU INFORMACIÓN</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:2,color:'gray', fontSize:'15px'}}>Ahora, los dueños de mascotas podrán encontrarte y solicitar tus servicios.</Typography>
             <Typography variant='body1' align='center' sx={{marginTop:3,color:'gray', fontSize:'15px'}}>Puedes gestionar tu perfil y recibir reservas desde tu cuenta.</Typography>
@@ -564,7 +564,7 @@ const handleFinalizar = async () => {
         >
           {/* contenido encima de... */}
           <Box sx={{ position:'relative', zIndex:2, p:3 }}>
-            <Typography align='center' variant='h4'>CHAT PET</Typography>
+            <Typography align='center' variant='h4'>PET'S RIDE</Typography>
             <Typography variant='h6' align='center' sx={{ marginBottom:2, color:'#a6d993', fontSize:'14px' }}>PRESTADOR DE SERVICIOS</Typography>
             <Stepper 
               activeStep={activeStep} 

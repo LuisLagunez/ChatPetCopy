@@ -78,7 +78,7 @@ const handleLogin = async () => {
         <Grid item xs={12} md={6}>
           <Paper sx={{ padding: 2, height: '100%' }}>
             <Typography sx={{ fontFamily: 'Baloo2', textAlign: 'center' }}>
-              <h2 style={{ color: '#5d8c4c' }}>Chat Pet</h2>
+              <h2 style={{ color: '#5d8c4c' }}>PET'S RIDE</h2>
             </Typography>
             <Typography sx={{ fontFamily: 'Baloo2', textAlign: 'center' }}>
               ¡Conecta con expertos y encuentra a los mejores servicios para tu mascota!
@@ -197,7 +197,7 @@ const handleLogin = async () => {
             <Stack direction="column" alignItems="center" spacing={2}>
               <Avatar alt="powito1" src="/powito1.jpeg" sx={{ width: 256, height: 256 }} />
               <Typography align="center">
-                Tu mascota merece lo mejor, en <strong>Chat Pet</strong> te ayudamos a encontrarlo
+                Tu mascota merece lo mejor, en <strong>PET'S RIDE</strong> te ayudamos a encontrarlo
               </Typography>
             </Stack>
           </Paper>

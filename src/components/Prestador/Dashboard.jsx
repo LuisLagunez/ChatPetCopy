@@ -200,9 +200,9 @@ DemoPageContent.propTypes = {
 function CustomAppTitle() {
   return (
     <Stack direction="row" alignItems="center" spacing={{xs:0, sm:0, md:5}} sx={{ml:"3vh"}}>
-      <Avatar alt="Logo" src="/logo.png" sx={{ width:{xs:0, sm: 40, md: 56}, height: {xs:0, sm: 40, md: 56} }} />
+      <Avatar alt="Logo" src="/animate.png" sx={{ width:{xs:0, sm: 40, md: 56}, height: {xs:0, sm: 40, md: 56} }} />
       <Typography variant="h6" sx={{ textAlign: 'center' }}>
-       CHAT PET
+       PET'S RIDE
       </Typography>
   </Stack>
   );
@@ -262,7 +262,7 @@ function SidebarFooter({ mini }) {
       variant="caption"
       sx={{ m: 1, whiteSpace: 'nowrap', overflow: 'hidden' }}
     >
-      {mini ? '© CHATPET' : `© ${new Date().getFullYear()} Made by CHAT PET`}
+      {mini ? '© PETS RIDE' : `© ${new Date().getFullYear()} Made by PETS RIDE`}
     </Typography>
   );
 }
